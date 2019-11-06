@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array/>
+	<key>name</key>
+	<string>EltexMe5kLogs</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^(\w+[+-:])+</string>
+			<key>name</key>
+			<string>eltex.me5klogs.timestamp</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(top-manager|service-mgr|pp-manager|alarm-manager|fw-manager|fmc-lc-exchange|system-monitor|if-manager|netconfd)</string>
+			<key>name</key>
+			<string>eltex.me5klogs.proc-name</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(%.+?:)</string>
+			<key>name</key>
+			<string>eltex.me5klogs.sub-system</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\w+\.\w+\.\d+\.[\w-]+\.\d+)</string>
+			<key>name</key>
+			<string>eltex.me5klogs.ipc-addr</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>({.+})</string>
+			<key>name</key>
+			<string>eltex.me5klogs.json</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>eltex.me5klogs</string>
+	<key>uuid</key>
+	<string>4a2d1aef-0513-4662-828b-8674c5526987</string>
+</dict>
+</plist>

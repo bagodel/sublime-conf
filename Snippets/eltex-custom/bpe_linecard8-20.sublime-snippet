@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>lc8-20</tabTrigger>
+	<scope>source.c</scope>
+	<content>defined (BOARD_BPE_LC8_20)</content>
+</snippet>

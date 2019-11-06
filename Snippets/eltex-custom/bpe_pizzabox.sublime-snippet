@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>pizza</tabTrigger>
+	<scope>source.c</scope>
+	<content>defined (BOARD_BPE_PIZZABOX)</content>
+</snippet>

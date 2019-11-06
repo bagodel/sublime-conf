@@ -1,0 +1,16 @@
+{
+    "clang_binary" : "clang",
+    "verbose" : false,
+	"common_flags" : [],
+	"hide_default_completions": true,
+	"show_errors": false,
+	"triggers" : [".", "->", "::", " ", "	", "(", "[" , "!", "&", "*"],
+	"max_cache_age": "00:02:00",
+	"use_libclang" : true,
+	 "header_to_source_mapping": [
+	 	"./inclide"
+	 ],
+	 "ignore_list": [
+	 ],
+	"show_index_references": false,
+}

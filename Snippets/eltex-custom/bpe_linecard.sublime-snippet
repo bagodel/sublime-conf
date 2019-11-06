@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>lc</tabTrigger>
+	<scope>source.c</scope>
+	<content>defined (BOARD_BPE_LINECARD)</content>
+</snippet>

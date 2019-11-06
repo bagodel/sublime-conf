@@ -1,0 +1,55 @@
+// SublimeLinter Settings - User
+{
+    "debug": true,
+    "linters": {
+    	"clang": {
+            "args": "-Wall -I${file_path} -DBOARD_BPE_PIZZABOX",
+            "I": [
+                "${folder}/base/common/include",
+                "${folder}/base/common/libs",
+                "${folder}/bcm-sdk-net/sdk-all/include",
+                "${folder}/bcm-sdk-net/sdk-all/include/bcm",
+                "${folder}/bcm-sdk-net/sdk-all/systems/bde/linux/include",
+                "${folder}/bcm-sdk-net/sdk-all/systems/bde/linux/user/pp",
+                "${folder}/bcm-sdk-net/sdk-all/libs/phymod/include",
+                "${folder}/bcm-sdk-net/sdk-all/systems",
+                "${folder}/bcm-sdk-net/sdk-all/include/soc/ces/nemo_driver",
+                "${folder}/bcm-sdk-net/sdk-all/include/soc/ces/include_bcm",
+                "${folder}/bcm-sdk-net/sdk-all/include/soc/ces/include_int",
+                "${folder}/bcm-sdk-net/sdk-all/include/soc/ces/include_ext",
+                "${folder}/bcm-sdk-net/sdk-all/include/soc/ces/clsbuilder",
+                "${folder}/eltex-netconf/netconf/src",
+                "${folder}/eltex-netconf/netconf/src/agt/",
+                "${folder}/eltex-netconf/netconf/src/ncx/",
+                "${folder}/eltex-netconf/netconf/src/platform/",
+                "${folder}/eltex-netconf/netconf/src/common/",
+                "${folder}/base/common/include/ivykis/me5100",
+                "${folder}/base/common/include/ivykis/me5000",
+                "${folder}/base/common/include/ivykis/sim",
+                "${folder}/base/common/libs/libxml2/libxml2-2.9.2/include/",
+                "${folder}/base/common/libs/oniguruma/",
+            ]
+        }
+    },
+
+    "styles": [
+        {
+            "mark_style": "outline",
+            "priority": 1,
+            "scope": "sublimelinter.mark.warning",
+            "icon": "dot",
+            "types": [
+                "warning"
+            ]
+        },
+        {
+            "mark_style": "outline",
+            "priority": 1,
+            "scope": "sublimelinter.mark.error",
+            "icon": "dot",
+            "types": [
+                "error"
+            ]
+        }
+    ],
+}

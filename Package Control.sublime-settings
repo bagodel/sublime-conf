@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"ClangAutoComplete",
+		"Devicetree DTS Highlighting",
+		"EasyClangComplete",
+		"Function Name Display",
+		"Git",
+		"Include Autocomplete",
+		"MoveTab",
+		"Package Control",
+		"SimpleTODO",
+		"SublimeLinter",
+		"SublimeLinter-clang",
+		"SublimeLinter-json",
+		"TrailingSpaces"
+	]
+}

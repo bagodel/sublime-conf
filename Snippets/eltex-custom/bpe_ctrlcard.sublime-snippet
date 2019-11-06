@@ -1,0 +1,5 @@
+<snippet>
+	<tabTrigger>fmc</tabTrigger>
+	<scope>source.c</scope>
+	<content>defined (BOARD_BPE_CTRLCARD)</content>
+</snippet>

@@ -1,0 +1,10 @@
+{
+	"extensions":
+	[
+		"buffer*",
+		"buffer",
+		"fmc1",
+		"slot0",
+		"1"
+	]
+}

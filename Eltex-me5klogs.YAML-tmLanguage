@@ -1,0 +1,21 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+name: EltexMe5kLogs
+scopeName: eltex.me5klogs
+fileTypes: []
+uuid: 4a2d1aef-0513-4662-828b-8674c5526987
+
+patterns:
+- name: eltex.me5klogs.timestamp
+  match: ^(\w+[+-:])+
+#
+- name: eltex.me5klogs.proc-name
+  match: (top-manager|service-mgr|pp-manager|alarm-manager|fw-manager|fmc-lc-exchange|system-monitor|if-manager|netconfd)
+
+- name: eltex.me5klogs.sub-system
+  match: (%.+?:)
+
+- name: eltex.me5klogs.ipc-addr
+  match: (\w+\.\w+\.\d+\.[\w-]+\.\d+)
+
+- name: eltex.me5klogs.json
+  match: ({.+})

@@ -1,0 +1,6 @@
+{
+
+    "DEBUG": false,
+    "DEBUG_TAG": "CHeaders.py"
+    "PATHS_HEADERS" : ["include"],
+}
